@@ -10,14 +10,21 @@
                 </a>
                 <div id="toggleTarget"
                     class="bg-gray-800 rounded-md lg:rounded-none py-4 px-5 absolute right-6 top-20 lg:bg-transparent lg:static lg:py-0 lg:px-0 hidden lg:block w-1/2 lg:w-auto">
-                    <a href="#home-section"
+                    <a href="/"
                         class="text-gray-400 font-semibold ml-0 my-6 lg:my-0 lg:ml-8 hover:text-white block lg:inline">Home</a>
-                    <a href="#about-section"
-                        class="text-gray-400 font-semibold ml-0 my-6 lg:my-0 lg:ml-8 hover:text-white block lg:inline">About</a>
-                    <a href="#experience-section"
+                    <a href="/about-me"
+                        class="text-gray-400 font-semibold ml-0 my-6 lg:my-0 lg:ml-8 hover:text-white block lg:inline">About
+                        Me</a>
+                    <a href="/my-skills"
+                        class="text-gray-400 font-semibold ml-0 my-6 lg:my-0 lg:ml-8 hover:text-white block lg:inline">My
+                        Skills</a>
+                    <a href="/experience"
                         class="text-gray-400 font-semibold ml-0 my-6 lg:my-0 lg:ml-8 hover:text-white block lg:inline">Experience</a>
-                    <a href="#gallery-section"
-                        class="text-gray-400 font-semibold ml-0 my-6 lg:my-0 lg:ml-8 hover:text-white block lg:inline">Gallery</a>
+                    <a href="/experience"
+                        class="text-gray-400 font-semibold ml-0 my-6 lg:my-0 lg:ml-8 hover:text-white block lg:inline">My
+                        Projects</a>
+                    <a href="/experience"
+                        class="text-gray-400 font-semibold ml-0 my-6 lg:my-0 lg:ml-8 hover:text-white block lg:inline">Blogs</a>
                     <a href="#gallery-section" class="font-semibold ml-0 my-6 lg:my-0 lg:ml-8 block lg:inline">
                         <button class="py-1.5 px-3 bg-gray-200 rounded-md hover:bg-gray-300 text-black">Socialinks</button>
                     </a>
