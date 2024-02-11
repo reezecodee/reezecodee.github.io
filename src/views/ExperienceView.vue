@@ -7,7 +7,8 @@
                         <h1
                             class="text-4xl mb-5 text-center font-extrabold bg-gradient-to-b from-gray-100 to-gray-300 bg-clip-text text-transparent p-1">
                             Experience</h1>
-                        <p class="mb-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, unde?</p>
+                        <p class="mb-7 text-center">Berikut merupakan timeline pendidikan dan pengalaman saya selama
+                            berproses menjadi fullstack developer.</p>
                     </div>
                 </div>
                 <div class="flex flex-wrap">
@@ -27,9 +28,6 @@
                                 <time
                                     class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Februari
                                     2022 - April 2022</time>
-                                <p class="text-base font-normal text-gray-500 dark:text-gray-400">All of the pages and
-                                    components are first designed in Figma and we keep a parity between the two versions
-                                    even as we update the project.</p>
                             </li>
                         </ol>
                     </div>
@@ -49,9 +47,6 @@
                                 <time
                                     class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2020
                                     - 2023</time>
-                                <p class="text-base font-normal text-gray-500 dark:text-gray-400">All of the pages and
-                                    components are first designed in Figma and we keep a parity between the two versions
-                                    even as we update the project.</p>
                             </li>
                             <li class="ms-6">
                                 <span
@@ -67,8 +62,6 @@
                                 <time
                                     class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2023
                                     - Sekarang</time>
-                                <p class="text-base font-normal text-gray-500 dark:text-gray-400">Get started with
-                                    dozens of web components and interactive elements built on top of Tailwind CSS.</p>
                             </li>
                         </ol>
                     </div>

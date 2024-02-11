@@ -7,7 +7,9 @@
                         <h1
                             class="text-4xl mb-5 text-center font-extrabold bg-gradient-to-b from-gray-100 to-gray-300 bg-clip-text text-transparent p-1">
                             My Skills</h1>
-                        <p class="mb-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, unde?</p>
+                        <p class="mb-7 text-center">Dalam pengembangan web saya sering menggunakan tech stack dibawah ini.
+                            Berikut
+                            adalah Bahasa pemrograman dan Framework yang saya kuasai.</p>
                         <div class="flex justify-center items-center flex-wrap gap-10">
                             <div class="group">
                                 <div class="relative cursor-pointer">
@@ -74,8 +76,10 @@
                     <div class="max-w-3xl text-gray-400 text-lg text-center">
                         <h1
                             class="text-4xl mb-5 text-center font-extrabold bg-gradient-to-b from-gray-100 to-gray-300 bg-clip-text text-transparent p-1">
-                            My Target in 2024</h1>
-                        <p class="mb-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, unde?</p>
+                            My Plan in 2024</h1>
+                        <p class="mb-7">Saya memiliki rencana di tahun ini untuk menguasai teknologi ini. Meskipun ini
+                            sulit,
+                            saya akan berusahan menikmati prosesnya.</p>
                         <div class="flex justify-center items-center flex-wrap gap-10">
                             <div class="group">
                                 <div class="relative cursor-pointer">
