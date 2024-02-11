@@ -66,7 +66,8 @@
                         </div>
                     </div>
                     <div class="w-full self-center">
-                        <img src="/public/code.png" alt="" class="shadow-xl shadow-gray-500 rounded-lg">
+                        <img src="/public/code.png" alt=""
+                            class="shadow-xl shadow-gray-500 rounded-lg cursor-pointer hover:-rotate-6 duration-200">
                     </div>
                 </div>
             </div>

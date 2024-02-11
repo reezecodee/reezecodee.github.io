@@ -5,7 +5,7 @@
                 <div>
                     <div class="flex items-center gap-4">
                         <img src="https://avatars.githubusercontent.com/u/159593076?v=4" alt="" srcset=""
-                            class="rounded-full w-20">
+                            class="rounded-full w-24 duration-300 cursor-pointer border-2 border-transparent hover:border-gray-200 p-1">
                         <span class="text-gray-200 font-semibold">
                             <p>Neil Breen</p>
                             <p class="text-xs font-thin">Junior Web Developer</p>
@@ -69,7 +69,7 @@
             </div>
         </div>
         <div class="container mx-auto text-center py-6 text-xs text-gray-200 border-t border-gray-700">
-            &copy;{{ new Date().getFullYear() }} Copyright by Neil Breen | Made with <a href="https://vuejs.org/"
+            Copyright &copy;{{ new Date().getFullYear() }} by Neil Breen | Made with <a href="https://vuejs.org/"
                 class="hover:text-[#00DC82]">Vue.js</a> and <a href="https://tailwindcss.com/"
                 class="hover:text-[#0EA5E9]">TailwindCSS</a>
         </div>

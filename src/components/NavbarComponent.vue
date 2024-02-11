@@ -1,11 +1,11 @@
 <template>
     <header class="w-full fixed z-[2000] top-0">
-        <nav class="font-inter font-medium text-sm bg-opacity-30 bg-gray-500 backdrop-blur-sm border-b border-gray-700">
+        <nav :class="{ 'bg-opacity-30 bg-gray-500': navbarVisible }"
+            class="font-inter font-medium text-sm backdrop-blur-sm border-b border-gray-700 duration-1000">
             <div class="py-4 px-8 flex justify-between items-center container mx-auto">
                 <a href="">
                     <div class="flex justify-start items-center text-white">
-                        <span class="font-pacifico font-medium text-lg">My
-                            Portfolio</span>
+                        <span class="font-pacifico font-medium text-lg">Neil Breen</span>
                     </div>
                 </a>
                 <div id="toggleTarget"
@@ -37,7 +37,28 @@
 </template>
 
 <script setup>
+import { ref, onMounted, onBeforeUnmount } from 'vue';
 
+// Define a reactive ref for the navbar visibility
+const navbarVisible = ref(false);
+
+// Add a scroll event listener on mount and remove it on unmount
+onMounted(() => {
+    window.addEventListener('scroll', handleScroll);
+});
+
+onBeforeUnmount(() => {
+    window.removeEventListener('scroll', handleScroll);
+});
+
+// Handle scroll events to update navbar visibility
+function handleScroll() {
+    if (window.scrollY > 0 && !navbarVisible.value) {
+        navbarVisible.value = true;
+    } else if (window.scrollY === 0 && navbarVisible.value) {
+        navbarVisible.value = false;
+    }
+}
 </script>
 
 <style lang="scss" scoped></style>
