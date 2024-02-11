@@ -1,6 +1,6 @@
 <template>
     <footer>
-        <div class="container mx-auto px-8 py-4 border-t border-gray-700">
+        <div class="container mx-auto px-8 py-4 border-t border-gray-700 mt-20">
             <div class="flex flex-wrap gap-24">
                 <div>
                     <div class="flex items-center gap-4">
@@ -33,7 +33,7 @@
                     </ul>
                 </div>
                 <div>
-                    <h6 class="text-xl font-semibold mb-3">Resources</h6>
+                    <h6 class="text-xl font-semibold mb-3">Links</h6>
                     <ul class="text-sm text-gray-400 group">
                         <li class="mb-2">
                             <a href="" class="hover:text-white">Home</a>
@@ -68,10 +68,10 @@
                 </div>
             </div>
         </div>
-        <div class="container mx-auto text-center py-6 text-xs text-gray-200 border-t border-gray-700">
-            Copyright &copy;{{ new Date().getFullYear() }} by Neil Breen | Made with <a href="https://vuejs.org/"
-                class="hover:text-[#00DC82]">Vue.js</a> and <a href="https://tailwindcss.com/"
-                class="hover:text-[#0EA5E9]">TailwindCSS</a>
+        <div class="container mx-auto font-semibold text-center py-6 text-xs text-gray-200 border-t border-gray-700">
+            &copy; Copyright {{ new Date().getFullYear() }} by Neil Breen | Made with <a href="https://vuejs.org/"
+                class="text-[#00DC82]">Vue.js</a> and <a href="https://tailwindcss.com/"
+                class="text-[#0EA5E9]">TailwindCSS</a>
         </div>
     </footer>
 </template>

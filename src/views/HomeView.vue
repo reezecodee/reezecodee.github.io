@@ -31,7 +31,7 @@
             </div>
         </section>
         <section id="myself-section">
-            <div class="container px-8 mx-auto mt-36 mb-20">
+            <div class="container px-8 mx-auto mt-36">
                 <div class="flex">
                     <div class="w-full self-start">
                         <h4
