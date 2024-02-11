@@ -1,6 +1,8 @@
 <template>
     <Navbar></Navbar>
-    <slot></slot>
+    <div class="mt-36">
+        <slot></slot>
+    </div>
     <Footer></Footer>
 </template>
 

@@ -20,10 +20,10 @@
                         Skills</a>
                     <a href="/experience"
                         class="text-gray-400 font-semibold ml-0 my-6 lg:my-0 lg:ml-8 hover:text-white block lg:inline">Experience</a>
-                    <a href="/experience"
+                    <a href="/my-projects"
                         class="text-gray-400 font-semibold ml-0 my-6 lg:my-0 lg:ml-8 hover:text-white block lg:inline">My
                         Projects</a>
-                    <a href="/experience"
+                    <a href="/blogs"
                         class="text-gray-400 font-semibold ml-0 my-6 lg:my-0 lg:ml-8 hover:text-white block lg:inline">Blogs</a>
                     <a href="#gallery-section" class="font-semibold ml-0 my-6 lg:my-0 lg:ml-8 block lg:inline">
                         <button class="py-1.5 px-3 bg-gray-200 rounded-md hover:bg-gray-300 text-black">Socialinks</button>

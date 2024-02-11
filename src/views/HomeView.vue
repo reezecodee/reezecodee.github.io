@@ -1,7 +1,7 @@
 <template>
     <MainLayout>
         <section id="hero-section">
-            <div class="container px-8 mx-auto mt-36">
+            <div class="container px-8 mx-auto">
                 <div class="flex justify-center">
                     <div class="text-center">
                         <h1
