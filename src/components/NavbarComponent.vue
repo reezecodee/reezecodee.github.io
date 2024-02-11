@@ -10,24 +10,24 @@
                 </a>
                 <div id="toggleTarget"
                     class="bg-gray-800 rounded-md lg:rounded-none py-4 px-5 absolute right-6 top-20 lg:bg-transparent lg:static lg:py-0 lg:px-0 hidden lg:block w-1/2 lg:w-auto">
-                    <a href="/"
-                        class="text-gray-400 font-semibold ml-0 my-6 lg:my-0 lg:ml-8 hover:text-white block lg:inline">Home</a>
-                    <a href="/about-me"
+                    <router-link to="/"
+                        class="text-gray-400 font-semibold ml-0 my-6 lg:my-0 lg:ml-8 hover:text-white block lg:inline">Home</router-link>
+                    <router-link to="/about-me"
                         class="text-gray-400 font-semibold ml-0 my-6 lg:my-0 lg:ml-8 hover:text-white block lg:inline">About
-                        Me</a>
-                    <a href="/my-skills"
+                        Me</router-link>
+                    <router-link to="/my-skills"
                         class="text-gray-400 font-semibold ml-0 my-6 lg:my-0 lg:ml-8 hover:text-white block lg:inline">My
-                        Skills</a>
-                    <a href="/experience"
-                        class="text-gray-400 font-semibold ml-0 my-6 lg:my-0 lg:ml-8 hover:text-white block lg:inline">Experience</a>
-                    <a href="/my-projects"
+                        Skills</router-link>
+                    <router-link to="/experience"
+                        class="text-gray-400 font-semibold ml-0 my-6 lg:my-0 lg:ml-8 hover:text-white block lg:inline">Experience</router-link>
+                    <router-link to="/my-projects"
                         class="text-gray-400 font-semibold ml-0 my-6 lg:my-0 lg:ml-8 hover:text-white block lg:inline">My
-                        Projects</a>
-                    <a href="/blogs"
-                        class="text-gray-400 font-semibold ml-0 my-6 lg:my-0 lg:ml-8 hover:text-white block lg:inline">Blogs</a>
-                    <a href="#gallery-section" class="font-semibold ml-0 my-6 lg:my-0 lg:ml-8 block lg:inline">
+                        Projects</router-link>
+                    <router-link to="/blogs"
+                        class="text-gray-400 font-semibold ml-0 my-6 lg:my-0 lg:ml-8 hover:text-white block lg:inline">Blogs</router-link>
+                    <router-link to="" class="font-semibold ml-0 my-6 lg:my-0 lg:ml-8 block lg:inline">
                         <button class="py-1.5 px-3 bg-gray-200 rounded-md hover:bg-gray-300 text-black">Socialinks</button>
-                    </a>
+                    </router-link>
                 </div>
                 <button id="nav-toggle" class="py-2 px-3 block lg:hidden" type="button"><i
                         class="fas fa-bars text-xl text-black dark:text-white"></i></button>
@@ -39,10 +39,8 @@
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from 'vue';
 
-// Define a reactive ref for the navbar visibility
 const navbarVisible = ref(false);
 
-// Add a scroll event listener on mount and remove it on unmount
 onMounted(() => {
     window.addEventListener('scroll', handleScroll);
 });
@@ -51,14 +49,13 @@ onBeforeUnmount(() => {
     window.removeEventListener('scroll', handleScroll);
 });
 
-// Handle scroll events to update navbar visibility
-function handleScroll() {
+const handleScroll = () => {
     if (window.scrollY > 0 && !navbarVisible.value) {
         navbarVisible.value = true;
     } else if (window.scrollY === 0 && navbarVisible.value) {
         navbarVisible.value = false;
     }
-}
+};
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped></style>
