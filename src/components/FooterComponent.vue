@@ -1,7 +1,7 @@
 <template>
     <footer>
-        <div class="container mx-auto px-8 py-4 border-t border-gray-700 mt-20">
-            <div class="flex flex-wrap gap-24">
+        <div class="container mx-auto px-8 py-4 border-t border-gray-700 mt-10 md:mt-20">
+            <div class="flex flex-wrap gap-10 md:gap-24">
                 <div>
                     <div class="flex items-center gap-4">
                         <img src="https://avatars.githubusercontent.com/u/159593076?v=4" alt="" srcset=""
@@ -68,9 +68,10 @@
                 </div>
             </div>
         </div>
-        <div class="container mx-auto font-semibold text-center py-6 text-xs text-gray-200 border-t border-gray-700">
-            &copy; Copyright {{ new Date().getFullYear() }} by Neil Breen | Made with <a href="https://vuejs.org/"
-                class="text-[#00DC82]">Vue.js</a> and <a href="https://tailwindcss.com/"
+        <div
+            class="container mx-auto font-semibold text-center py-6 text-xs text-gray-200 border-t border-gray-700 leading-5">
+            &copy; Copyright {{ new Date().getFullYear() }} by Neil Breen <br class="block md:hidden"> Made with <a
+                href="https://vuejs.org/" class="text-[#00DC82]">Vue.js</a> and <a href="https://tailwindcss.com/"
                 class="text-[#0EA5E9]">TailwindCSS</a>
         </div>
     </footer>

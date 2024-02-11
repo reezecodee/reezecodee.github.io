@@ -11,7 +11,7 @@
                             berproses menjadi fullstack developer.</p>
                     </div>
                 </div>
-                <div class="flex flex-wrap">
+                <div class="flex flex-wrap justify-center">
                     <div class="w-1/2 self-center">
                         <ol class="relative border-s border-gray-200 dark:border-gray-700">
                             <li class="mb-10 ms-6">
@@ -31,7 +31,7 @@
                             </li>
                         </ol>
                     </div>
-                    <div class="w-1/2 self-center">
+                    <div class="w-1/2 self-center hidden md:block">
                         <ol class="relative border-s border-gray-200 dark:border-gray-700">
                             <li class="mb-10 ms-6">
                                 <span

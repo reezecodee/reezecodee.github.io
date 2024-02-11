@@ -1,18 +1,16 @@
 <template>
     <MainLayout>
         <section id="hero-section">
-            <div class="container px-8 mx-auto">
+            <div class="container px-4 md:px-8 mx-auto">
                 <div class="flex justify-center">
                     <div class="text-center">
                         <h1
-                            class="text-[3.5rem] bg-gradient-to-b from-gray-100 to-gray-300 bg-clip-text text-transparent font-extrabold p-2">
+                            class="text-[3rem] leading-snug md:text-[3.5rem] bg-gradient-to-b from-gray-100 to-gray-300 bg-clip-text text-transparent font-extrabold p-2">
                             Welcome to My Portfolio Web</h1>
-                        <p class="text-lg text-gray-400 mt-10">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                            Tempora
-                            vero
-                            eligendi
-                            impedit<br> reiciendis
-                            sunt, laboriosam reprehenderit similique enim facilis pariatur!</p>
+                        <p class="text-lg text-gray-400 mt-10">Saya adalah seorang Junior Web Developer yang berfokus
+                            menjadi
+                            Fullstack Developer dan terus<br class="hidden md:block"> memupuk semangat
+                            eksplorasi teknologi pemrogramman perangkat lunak</p>
                         <div class="flex justify-center gap-4 font-semibold mt-10">
                             <a href="">
                                 <button class="px-3 py-3 bg-gray-200 rounded-md text-black hover:bg-gray-300"><i
@@ -31,14 +29,15 @@
             </div>
         </section>
         <section id="myself-section">
-            <div class="container px-8 mx-auto mt-36">
-                <div class="flex">
-                    <div class="w-full self-start">
+            <div class="container px-4 md:px-8 mx-auto mt-36">
+                <div class="flex flex-wrap-reverse md:flex-wrap">
+                    <div class="w-full md:w-1/2 self-start mt-20 md:mt-0">
                         <h4
                             class="bg-gradient-to-b from-gray-100 to-gray-300 bg-clip-text text-transparent inline-block text-4xl font-extrabold mb-3">
                             let's connect
-                            with
-                            me</h4>
+                            <br class="block md:hidden">with
+                            me
+                        </h4>
                         <p class="text-gray-400 pr-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo magnam
                             nihil
                             id
@@ -65,7 +64,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="w-full self-center">
+                    <div class="w-full md:w-1/2 self-center">
                         <img src="/public/code.png" alt=""
                             class="shadow-xl shadow-gray-500 rounded-lg cursor-pointer hover:-rotate-6 duration-200">
                     </div>

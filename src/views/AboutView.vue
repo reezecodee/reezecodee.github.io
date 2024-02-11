@@ -1,7 +1,7 @@
 <template>
     <MainLayout>
         <section id="about-section">
-            <div class="container mx-auto px-8">
+            <div class="container mx-auto px-4 md:px-8 text-justify md:text-start">
                 <div class="flex justify-center">
                     <div class="max-w-3xl text-gray-400 text-lg">
                         <h1

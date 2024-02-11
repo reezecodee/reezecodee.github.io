@@ -1,7 +1,7 @@
 <template>
     <MainLayout>
         <section id="skills-section">
-            <div class="container mx-auto px-8">
+            <div class="container mx-auto px-4 md:px-8">
                 <div class="flex justify-center">
                     <div class="max-w-3xl text-gray-400 text-lg">
                         <h1
@@ -71,7 +71,7 @@
             </div>
         </section>
         <section id="target-section">
-            <div class="container mx-auto px-8 mt-32">
+            <div class="container mx-auto px-4 md:px-8 mt-32">
                 <div class="flex justify-center">
                     <div class="max-w-3xl text-gray-400 text-lg text-center">
                         <h1
