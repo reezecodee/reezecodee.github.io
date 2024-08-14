@@ -7,7 +7,8 @@
                         <h1
                             class="text-4xl mb-5 text-center font-extrabold bg-gradient-to-b from-gray-100 to-gray-300 bg-clip-text text-transparent p-1">
                             My Skills</h1>
-                        <p class="mb-7 text-center">Dalam pengembangan web saya sering menggunakan tech stack dibawah ini.
+                        <p class="mb-7 text-center">Dalam pengembangan web saya sering menggunakan tech stack dibawah
+                            ini.
                             Berikut
                             adalah Bahasa pemrograman dan Framework yang saya kuasai.</p>
                         <div class="flex justify-center items-center flex-wrap gap-10">
@@ -26,6 +27,15 @@
                                         class="w-12">
                                     <div class="absolute text-xs left-0 right-0 hidden group-hover:block">
                                         <p class="text-center">JavaScript</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="group">
+                                <div class="relative cursor-pointer">
+                                    <img src="https://www.svgrepo.com/show/452091/python.svg" alt="" srcset=""
+                                        class="w-14">
+                                    <div class="absolute text-xs left-0 right-0 hidden group-hover:block">
+                                        <p class="text-center">Python</p>
                                     </div>
                                 </div>
                             </div>
@@ -92,14 +102,6 @@
                             </div>
                             <div class="group">
                                 <div class="relative cursor-pointer">
-                                    <img src="https://www.svgrepo.com/show/452091/python.svg" alt="" srcset="" class="w-14">
-                                    <div class="absolute text-xs left-0 right-0 hidden group-hover:block">
-                                        <p class="text-center">Python</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="group">
-                                <div class="relative cursor-pointer">
                                     <img src="https://www.svgrepo.com/show/452214/go.svg" alt="" srcset="" class="w-16">
                                     <div class="absolute text-xs left-0 right-0 hidden group-hover:block">
                                         <p class="text-center">Go</p>
@@ -143,7 +145,8 @@
                             </div>
                             <div class="group">
                                 <div class="relative cursor-pointer">
-                                    <img src="https://www.svgrepo.com/show/373845/mongo.svg" alt="" srcset="" class="w-16">
+                                    <img src="https://www.svgrepo.com/show/373845/mongo.svg" alt="" srcset=""
+                                        class="w-16">
                                     <div class="absolute text-xs left-0 right-0 hidden group-hover:block">
                                         <p class="text-center">MongoDB</p>
                                     </div>

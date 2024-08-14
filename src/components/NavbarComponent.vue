@@ -5,7 +5,7 @@
             <div class="py-4 px-4 md:px-8 flex justify-between items-center container mx-auto">
                 <a href="">
                     <div class="flex justify-start items-center text-white">
-                        <span class="font-pacifico font-medium text-lg">Neil Breen</span>
+                        <span class="font-pacifico font-medium text-lg">Reeze Dev</span>
                     </div>
                 </a>
                 <div id="toggleTarget" :class="isSidebarOpen ? 'block' : 'hidden'"

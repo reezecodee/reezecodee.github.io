@@ -7,12 +7,9 @@
                         <h1
                             class="text-[3rem] leading-snug md:text-[3.5rem] bg-gradient-to-b from-gray-100 to-gray-300 bg-clip-text text-transparent font-extrabold p-2">
                             Welcome to My Portfolio Web</h1>
-                        <p class="text-lg text-gray-400 mt-10">Saya adalah seorang Junior Web Developer yang berfokus
-                            menjadi
-                            Fullstack Developer dan terus<br class="hidden md:block"> memupuk semangat
-                            eksplorasi teknologi pemrogramman perangkat lunak</p>
+                        <p class="text-lg text-gray-400 mt-10">Hello everyone, I'm a software developer who likes web development. <br class="hidden md:block"> I usually use tech stacks like PHP, JavaScript, and Python to develop my own projects.</p>
                         <div class="flex justify-center gap-4 font-semibold mt-10">
-                            <a href="">
+                            <a href="https://github.com/reezecodee" target="_blank">
                                 <button class="px-3 py-3 bg-gray-200 rounded-md text-black hover:bg-gray-300"><i
                                         class="fab fa-github"></i>
                                     My
@@ -38,28 +35,22 @@
                             <br class="block md:hidden">with
                             me
                         </h4>
-                        <p class="text-gray-400 pr-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo magnam
-                            nihil
-                            id
-                            quaerat explicabo
-                            ratione cum, laborum fuga ut vero, ab perspiciatis magni architecto. Provident delectus
-                            blanditiis
-                            maxime laudantium nesciunt.</p>
+                        <p class="text-gray-400 pr-3">We can be friends and exchange information, experiences, and knowledge about the development of the programming world.</p>
                         <h6
                             class="bg-gradient-to-b from-gray-100 to-gray-300 bg-clip-text text-transparent inline-block font-bold mt-5 text-lg">
                             Follow
                             me on</h6>
                         <div class="flex gap-3">
-                            <a href="" class="text-3xl">
+                            <a href="https://github.com/reezecodee" class="text-3xl" target="_blank">
                                 <i class="fa-brands fa-github"></i>
                             </a>
-                            <a href="" class="text-3xl">
+                            <a href="https://instagram.com" class="text-3xl" target="_blank">
                                 <i class="fa-brands fa-instagram"></i>
                             </a>
-                            <a href="" class="text-3xl">
+                            <a href="https://linkedin.com" class="text-3xl" target="_blank">
                                 <i class="fa-brands fa-linkedin"></i>
                             </a>
-                            <a href="" class="text-3xl">
+                            <a href="https://www.facebook.com/profile.php?id=61556834524837" class="text-3xl" target="_blank">
                                 <i class="fa-brands fa-facebook"></i>
                             </a>
                         </div>
